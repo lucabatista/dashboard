@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Variaveis de cores e fonts*/
+:root{
+    --colors-menu:#717171;
+    --fonts-familys:'Montserrat',sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background-color: #FAF9FC;
+}
+
+div.sidebar{
+    width:30%;
+    background-color: #2D3035;
+    height:100%;
+}
+
+div.top{
+    background: #26282D;
+    text-align: center;
+    padding: 4px 10px;
+}
+div.top h3{
+    color: #fff;
+    font-family:var(--fonts-familys);
+}
+div.menu{
+    padding: 2.5rem;
+}
+
+div.menu ul{
+    list-style-type: none;
+}
+div.menu li{
+    cursor: pointer;
+    transition: 1s;
+    color:var(--colors-menu) ;
+    margin-bottom: 16px;
+}
+
+div.menu ul li a{
+    color: var(--colors-menu);
+    text-decoration: none;
+  
+}
+
+div.menu li:hover i{
+    color:purple;
+}
